@@ -1,0 +1,126 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.two-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.three-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.four-columns {
+  background: lightgray;
+}
+
+.four-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+  width: 33%;
+  float: right;
+}
+
+.yellow {
+  background: gold;
+  width: 33%;
+  float: right;
+}
+
+.green {
+  background: forestgreen;
+  width: 33%;
+  float: right;
+}
+
+.black {
+  background: black;
+  width: 25%;
+  float: right;
+}
+
+.pink {
+  background: pink;
+  width: 25%;
+  float: right;
+}
+
+.purple {
+  background: purple;
+  width: 25%;
+  float: right;
+}
+
+.gray {
+  background: gray;
+  width: 25%;
+  float: right;
+}
+
+.goldenrod {
+  background: darkgoldenrod;
+  width: 50%;
+  float: right;
+}
+
+.midnightblue {
+  background: midnightblue;
+  width: 50%;
+  float: right;
+}
+
+.slateblue {
+  background: slateblue;
+  width: 50%;
+  float: right;
+}
+
+.lime {
+  background: lime;
+  width: 50%;
+  float: right;
+}
