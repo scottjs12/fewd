@@ -1,0 +1,181 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.two-columns:after {
+  /* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.three-columns:after {
+  /* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.four-columns {
+  background: slategray;
+}
+
+.four-columns:after {
+  /* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.two-columns-multiline {
+  background: lightgray;
+}
+
+.two-columns-multiline:after {
+  /* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+  width: 33%;
+  float: left;
+}
+
+.yellow {
+  background: gold;
+  width: 33%;
+  float: left;
+}
+
+.green {
+  background: forestgreen;
+  width: 33%;
+  float: left;
+}
+
+.papayawhip {
+  background: papayawhip;
+  width: 25%;
+  float: left;
+  color: midnightblue;
+}
+
+.cornflowerblue {
+  background: cornflowerblue;
+  width: 25%;
+  float: left;
+}
+
+.lime {
+  background: lime;
+  width: 25%;
+  float: left;
+}
+
+.fuchsia {
+  background: fuchsia;
+  width: 25%;
+  float: left;
+}
+
+.one {
+  background: papayawhip;
+  width: 50%;
+  float: left;
+  color: midnightblue;
+}
+
+.two {
+  background: cornflowerblue;
+  width: 50%;
+  float: left;
+}
+
+.three {
+  background: lime;
+  width: 50%;
+  float: left;
+}
+
+.four {
+  background: fuchsia;
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .red, .blue {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .orange, .yellow, .green {
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .papayawhip, .cornflowerblue, .lime, .fuchsia {
+  width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .two-columns-multiline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .two-columns, .three-columns, .four-columns, .two-columns-multiline {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .color {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokeblog</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <img class="header-image" src="./images/gold-silver.jpg" alt="Pokemon Gold and Silver">
+    </header>
+
+    <section class="sign-up">
+      <h2 class="sign-up-heading">Coming Soon!</h2>
+      <p class="sign-up-description">Be the first to hear updates on these amazing games</p>
+
+      <form class="sign-up-form">
+
+        <div class="sign-up-field">
+          <label class="sign-up-question" for="first-name-input">First Name</label>
+          <input class="sign-up-input" id="first-name-input" type="text" name="first_name">
+        </div>
+
+        <div class="sign-up-field">
+          <label class="sign-up-question" for="last-name-input">Last Name</label>
+          <input class="sign-up-input" id="last-name-input" type="text" name="last_name">
+        </div>
+
+        <div class="sign-up-field">
+          <label class="sign-up-question"for="email-input">Email Address</label>
+          <input class="sign-up-input"id="email-input" type="email" name="email_address">
+        </div>
+
+        <div class="sign-up-field">
+          <label class="sign-up-question" for="date-of-birth">Birthday</label>
+          <input class="sign-up-input" id="date-of-birth" type="date" max="2017-06-13" name="birthday">
+        </div>
+
+        <div class="sign-up-field">
+          <select name="Country">
+            <option value="japan">Japan</option>
+            <option value="usa">United States</option>
+            <option value="china">China</option>
+          </select>
+        </div>
+
+        <div class="sign-up-field">
+          <label class="sign-up-question" for="experience-input">How many years of pokemon experience do you have?</label>
+          <input class="sign-up-input" id="experience-input" type="number" name="experience">
+        </div>
+
+        <div class="sign-up-field">
+          <p class="sign-up-question">Which was your favorite game?</p>
+
+          <div class="sign-up-input">
+            <input id="favorite-game-silver" type="radio" name="favorite_game" value="silver" checked>
+            <label for="favorite-game-silver">Pokemon Silver</label>
+          </div>
+
+          <div class="sign-up-input">
+            <input id="favorite-game-gold" type="radio" name="favorite_game" value="gold" checked>
+            <label for="favorite-game-gold">Pokemon Gold</label>
+          </div>
+        </div>
+
+        <div class="sign-up-field">
+          <p class="sign-up-question">What are you going to do in this game?</p>
+
+          <div class="sign-up-input">
+            <input id="training-input" type="checkbox" name="activities" value="training">
+            <label for="training-input">I will be training</label>
+          </div>
+
+          <div class="sign-up-input">
+            <input id="catching-input" type="checkbox" name="activities" value="catching">
+            <label for="catching-input">I will be catching</label>
+          </div>
+
+          <div class="sign-up-input">
+            <input id="exploring-input" type="checkbox" name="activities" value="exploring">
+            <label for="exploring-input">I will be exploring</label>
+          </div>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit!!">
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

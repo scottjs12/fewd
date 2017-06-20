@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+nav {
+  background: firebrick;
+  height: 4.25rem;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 4.25rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.nav-hamburger {
+  margin-top: 1rem;
+  width: 2rem;
+}
+
+.trainer-image, .trainer-bio {
+  float: left;
+  width: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.trainer-image img {
+  width: 100%;
+}
+
+#party {
+  background-color: rgb(197, 238, 255);
+}
+
+.pokemon {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pokemon-image {
+  width: 100%;
+}
+
+.gym {
+  float: left;
+  width: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.gym-image {
+  width: 100%;
+}
+
+.gym-leader {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .trainer-image, .trainer-bio, .pokemon {
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gym {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  }
+  .gym-name, .gym-leader, .gym-name, .gym-specality {
+    float: right;
+    display:inline-block;
+  }
+}
