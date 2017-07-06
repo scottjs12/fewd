@@ -1,0 +1,195 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+h1 {
+  background-color: coral;
+  margin: 0;
+  padding: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+  display: flex;
+}
+
+.three-columns {
+  background: lightgray;
+  display: flex;
+}
+
+.two-columns-squished {
+  background: slategray;
+  display: flex;
+}
+
+.two-columns-space-between {
+  background: lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns-space-around {
+  background: slategray;
+  display: flex;
+  justify-content: space-around;
+}
+
+.two-columns-reversed {
+  background: lightgray;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.two-columns-against-the-bottom { /* This rhymes, hehehe */
+  height: 600px;
+  background: slategray;
+  display: flex;
+  align-items: flex-end;
+}
+
+.two-columns-multiline {
+  background: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-columns-vertical {
+  background: slategray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  height: 600px;
+}
+
+.two-columns-vertical-reversed {
+  background: lightgray;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+
+  height: 600px;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+}
+
+.orange {
+  background: orange;
+  width: 33%;
+}
+
+.yellow {
+  background: gold;
+  width: 33%;
+}
+
+.green {
+  background: forestgreen;
+  width: 33%;
+}
+
+.papayawhip {
+  background: papayawhip;
+  color: midnightblue;
+  width: 40%;
+}
+
+.cornflowerblue {
+  background: cornflowerblue;
+  width: 40%;
+}
+
+.lime {
+  background: lime;
+  width: 40%;
+}
+
+.fuchsia {
+  background: fuchsia;
+  width: 40%;
+}
+
+.coral {
+  background: coral;
+  width: 30%;
+}
+
+.skyblue {
+  background: skyblue;
+  width: 30%;
+}
+
+.top-left {
+  background: firebrick;
+  width: 50%;
+}
+
+.top-right {
+  background: navy;
+  width: 50%;
+}
+
+.bottom-left {
+  background: orange;
+  width: 50%;
+}
+
+.bottom-right {
+  background: forestgreen;
+  width: 50%;
+}
+
+.gray-one {
+  color: black;
+  background: #fff;
+  width: 50%;
+}
+
+.gray-two {
+  color: black;
+  background: #eee;
+  width: 50%;
+}
+
+.gray-three {
+  color: black;
+  background: #ddd;
+  width: 50%;
+}
+
+.gray-four {
+  color: black;
+  background: #ccc;
+  width: 50%;
+}
+
+.gray-five {
+  color: black;
+  background: #bbb;
+  width: 50%;
+}
+
+.gray-six {
+  color: black;
+  background: #aaa;
+  width: 50%;
+}

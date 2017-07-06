@@ -1,0 +1,176 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+h1 {
+  background-color: coral;
+  margin: 0;
+  padding: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+  display: flex;
+  justify-content: center;
+}
+
+.three-columns {
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns-squished {
+  background: slategray;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns-space-between {
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns-space-around {
+  background: slategray;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.two-columns-reversed {
+  background: lightgray;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.two-columns-vertical {
+  background: slategray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-columns-vertical-reversed {
+  background: lightgray;
+}
+
+.two-columns-against-the-bottom { /* This rhymes, hehehe */
+  background: slategray;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.two-columns-multiline {
+  background: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.blue {
+  background: navy;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.orange {
+  background: orange;
+}
+
+.yellow {
+  background: gold;
+}
+
+.green {
+  background: forestgreen;
+}
+
+.papayawhip {
+  background: papayawhip;
+  color: midnightblue;
+  width: 40%;
+}
+
+.cornflowerblue {
+  background: cornflowerblue;
+  width: 40%;
+}
+
+.lime {
+  background: lime;
+  width: 40%;
+}
+
+.fuchsia {
+  background: fuchsia;
+  width: 40%;
+}
+
+.coral {
+  background: coral;
+  width: 30%;
+}
+
+.skyblue {
+  background: skyblue;
+  width: 30%;
+}
+
+.gray-one {
+  color: black;
+  background: #fff;
+}
+
+.gray-two {
+  color: black;
+  background: #eee;
+}
+
+.gray-three {
+  color: black;
+  background: #ddd;
+}
+
+.gray-four {
+  color: black;
+  background: #ccc;
+}
+
+.gray-five {
+  color: black;
+  background: #bbb;
+}
+
+.gray-six {
+  color: black;
+  background: #aaa;
+}
+
+.two-columns-vertical > .color {
+  width: 50%;
+}
+
