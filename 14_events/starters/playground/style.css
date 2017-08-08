@@ -1,0 +1,16 @@
+body {
+  background: #fcfcfc;
+  color: #333;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+button, input[type="text"] {
+  font-size: 20px;
+  padding: 6px;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
